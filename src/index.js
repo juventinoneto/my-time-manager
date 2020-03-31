@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import * as serviceWorker from './serviceWorker';
+import ButtonDefault from './components/ButtonDefault';
+// import ContainerDefault from './components/Container/ContainerDefault'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ButtonDefault />
   </React.StrictMode>,
   document.getElementById('root')
 );
